@@ -4,13 +4,13 @@
 By: Kelly Jara, Bianna Gas, Laibah Ashfaq
 
 ## Overview
-This project utilizes King County housing data from 2014-2015 in order to make predictions regarding the sale prices of houses based on certain home features. After our exploratory data analysis and multiple linear regression modeling, we have determined that location, waterfront, house grade and square footage have the largest impact on increasing the sales prices of homes in this region.
+This project utilizes King County housing data from 2021-2022 in order to make predictions regarding the sale prices of houses based on certain home features. After our exploratory data analysis and multiple linear regression modeling, we have determined that location, waterfront, house grade and square footage have the largest impact on increasing the sales prices of homes in this region.
 
 ## Business Problem
 Our stakeholder, The Corcoran Group is looking to expand into the Kings County area housing market to grow their west coast footprint. In order to help them get to know the real estate market in this new area, we were tasked with analyzing what home features help increase the sales price of the properties. Using our data, the real estate company can narrow down which homes to focus on that would command a higher sales price. 
 
 ## Data
-This project utilize a dataset from Kaggle regaridng Kings County, Washington home sales between 2014-2015. The source includes certain home features such as: 
+This project utilize a dataset from Kaggle regarding Kings County, Washington home sales between 2021-2022. The source includes certain home features such as: 
   -Bedrooms: Number of bedrooms
   -Bathrooms: Number of bathrooms
   -Sqft Living: Square footage of living space in the home
@@ -26,7 +26,10 @@ This project utilize a dataset from Kaggle regaridng Kings County, Washington ho
   -Sewer System: Sewer system for the house
  
 ## Modeling
-After cleaning our data, we performed a 70%-30% Train-Test split on the data with price as our target variable and all other variables as predictors. Afterwards, we created multiple iterative linear regression models.
+After cleaning our data, we performed a 70%-30% Train-Test split on the data with price as our target variable and all other variables as predictors. Afterwards, we created multiple iterative linear regression models. The following features were included in each model:
+Model 1 --> 
+Model 2 -->
+Model 3 -->
 
 
 ## Recommendations
