@@ -33,7 +33,8 @@ After cleaning our data, we performed a 70%-30% Train-Test split on the data wit
   - Model 3: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors, grade_code, view_code,
          condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source, sewer_system, zipcode
 ## Results
-We computed the mean absolute error, R^2 and root mean squared error of each model to be able to compare the models predictions to actual values. 
+We computed the mean absolute error, R^2 and root mean squared error of each model to be able to compare the models predictions to actual values.
+
 Model 1:
   - Mean Absolute Error = 359,955.85 USD
   - Root Mean Square Error = 709,403.43 USD
@@ -46,7 +47,21 @@ Model 2:
   - Mean Absolute Error = 230,170.53 USD
   - Root Mean Square Error = 774,568.32 USD
   - R^2 = 0.703
-  
+
+We found that adding more categoricals and the zipcodes to our model significantly increased the R2 value from 0.498 to 0.703. By having an increased R2 value, this allowed us see how well our model explains the data and move forward with providing recommendations to our stakeholder. Based on our third model, we were able to visualize the correlation/effect between the following: 
+
+Average price of a home based on location:
+![Price Per Zipcode](https://github.com/Kellyajara/Phase2_Project/assets/127794801/5976eb2d-645b-446c-8d2e-216cd4740e76)
+
+Average price of a home based on grade: 
+![Price Per Grade](https://github.com/Kellyajara/Phase2_Project/assets/127794801/a7503575-3a49-4228-9939-1ba08ee9159e)
+
+Average price of a home based on waterfront view: 
+![Waterfront](https://github.com/Kellyajara/Phase2_Project/assets/127794801/ab46cb13-2dd0-4f19-b4d1-96ac54c00782)
+
+Average price of a home based on the sqft of a home:
+![sqft_living](https://github.com/Kellyajara/Phase2_Project/assets/127794801/77a455ef-21d0-4d4d-9b44-4c34ce2c5c62)
+
 ## Recommendations
 Our recommendations for prioritizing realtor efforts are as follows:
   - Homes in specific zipcodes (98039,98004,98040,98033,98112)
