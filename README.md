@@ -27,11 +27,26 @@ This project utilize a dataset from Kaggle regarding Kings County, Washington ho
  
 ## Modeling
 After cleaning our data, we performed a 70%-30% Train-Test split on the data with price as our target variable and all other variables as predictors. Afterwards, we created multiple iterative linear regression models. The following features were included in each model:
-Model 1 --> 
-Model 2 -->
-Model 3 -->
-
-
+  - Model 1: bedrooms, bathrooms, sqft_lot, sqft_above, floors ,sqft_basement, sqft_garage, sqft_patio, grade_code , view_code , condition_code 
+  - Model 2: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors , grade_code , view_code,
+         condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source, sewer_system
+  - Model 3: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors, grade_code, view_code,
+         condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source, sewer_system, zipcode
+## Results
+We computed the mean absolute error, R^2 and root mean squared error of each model to be able to compare the models predictions to actual values. 
+Model 1:
+  - Mean Absolute Error = 359,955.85 USD
+  - Root Mean Square Error = 709,403.43 USD
+  - R^2 = 0.498
+Model 2: 
+  - Mean Absolute Error = 359,955.85 USD
+  - Root Mean Square Error = 709,403.43 USD
+  - R^2 = 0.532
+ Model 3:
+  - Mean Absolute Error = 230,170.53 USD
+  - Root Mean Square Error = 774,568.32 USD
+  - R^2 = 0.703
+  
 ## Recommendations
 Our recommendations for prioritizing realtor efforts are as follows:
   - Homes in specific zipcodes (98039,98004,98040,98033,98112)
