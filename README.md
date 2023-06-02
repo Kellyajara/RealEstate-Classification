@@ -1,5 +1,5 @@
 # Housing Price Analysis in Kings County, Washington
-![image](https://github.com/Kellyajara/Phase2_Project/assets/131709766/725176b5-b09f-4b5a-b68a-e9e6d5c85b76)
+![image](https://github.com/Kellyajara/Phase2_Project/assets/127794801/838b5b02-aa53-4435-acbd-aed4887859e6)
 
 By: Kelly Jara, Bianna Gas, Laibah Ashfaq
 
