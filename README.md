@@ -11,27 +11,31 @@ Our stakeholder, The Corcoran Group is looking to expand into the Kings County a
 
 ## Data
 This project utilize a dataset from Kaggle regarding Kings County, Washington home sales between 2021-2022. The source includes certain home features such as: 
-  -Bedrooms: Number of bedrooms
-  -Bathrooms: Number of bathrooms
-  -Sqft Living: Square footage of living space in the home
-  -Sqft Lot: Square footage of the lot
-  -Floors: Number of floors (levels) in the home
-  -Waterfront: Whether the house is on a waterfront
-  -Greenbelt: Whether the house is adjacent to a greenbelt
-  -Nusiance: Whether the house has traffic noise or other recorded nuisances
-  -View: Quality of view from house
-  -Condition: How good the overall condition of the house is. Related to maintenance and age of the house.
-  -Grade: Overall grade of the house. Related to the construction and design of the house.
-  -Heat Source: Heat source for the home
-  -Sewer System: Sewer system for the house
+  * Bedrooms: Number of bedrooms
+  * Bathrooms: Number of bathrooms
+  * Sqft Living: Square footage of living space in the home
+  * Sqft Lot: Square footage of the lot
+  * Floors: Number of floors (levels) in the home
+  * Waterfront: Whether the house is on a waterfront
+  * Greenbelt: Whether the house is adjacent to a greenbelt
+  * Nusiance: Whether the house has traffic noise or other recorded nuisances
+  * View: Quality of view from house
+  * Condition: How good the overall condition of the house is. Related to maintenance and age of the   
+    house.
+  * Grade: Overall grade of the house. Related to the construction and design of the house.
+  * Heat Source: Heat source for the home
+  * Sewer System: Sewer system for the house
  
 ## Modeling
 After cleaning our data, we performed a 70%-30% Train-Test split on the data with price as our target variable and all other variables as predictors. Afterwards, we created multiple iterative linear regression models. The following features were included in each model:
-  - Model 1: bedrooms, bathrooms, sqft_lot, sqft_above, floors ,sqft_basement, sqft_garage, sqft_patio, grade_code , view_code , condition_code 
-  - Model 2: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors , grade_code , view_code,
-         condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source, sewer_system
-  - Model 3: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors, grade_code, view_code,
-         condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source, sewer_system, zipcode
+  * Model 1: bedrooms, bathrooms, sqft_lot, sqft_above, floors ,sqft_basement, sqft_garage, sqft_patio,     grade_code , view_code , condition_code 
+  * Model 2: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors , grade_code , view_code,
+    condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source,  
+    sewer_system 
+  * Model 3: bedrooms, bathrooms, sqft_living, sqft_above, sqft_lot, floors, grade_code, view_code,
+    condition_code, sqft_garage, sqft_patio, yr_built, waterfront, greenbelt, nuisance, heat_source,   
+    sewer_system, zipcode
+    
 ## Results
 We computed the mean absolute error, R^2 and root mean squared error of each model to be able to compare the models predictions to actual values.
 
