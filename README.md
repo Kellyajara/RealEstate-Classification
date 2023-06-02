@@ -54,8 +54,10 @@ We computed the mean absolute error, R^2 and root mean squared error of each mod
    - Root Mean Square Error = 774,568.32 USD
    - R^2 = 0.703
 
-We found that adding more categoricals and the zipcodes to our model significantly increased the R2 value from 0.498 to 0.703. Our best model had an R-squared value of 0.701 telling us that the model fit the data with an accuracy of 70.1%.  The mean absolute error also decreased with each iteration, and our final model had an MAE of $230, 170, which signifies that our model is able to predict price within that range. The MAE is fairly low considering our average home price is $1.13 million. By having an increased R2 value, this allowed us see how well our model explains the data and move forward with providing recommendations to our stakeholder. We also computed the coefficients of each feature, which can help us prioritize the features in the model based on its effect on the price.<img width="134" alt="Screen Shot 2023-06-02 at 11 27 43 AM" src="https://github.com/Kellyajara/Phase2_Project/assets/128645674/a673bcf8-905f-47f6-90ce-8ceb68de941d">
- 
+We found that adding more categoricals and the zipcodes to our model significantly increased the R2 value from 0.498 to 0.703. Our best model had an R-squared value of 0.701 telling us that the model fit the data with an accuracy of 70.1%.  The mean absolute error also decreased with each iteration, and our final model had an MAE of $230, 170, which signifies that our model is able to predict price within that range. The MAE is fairly low considering our average home price is $1.13 million. By having an increased R2 value, this allowed us see how well our model explains the data and move forward with providing recommendations to our stakeholder. We also computed the coefficients of each feature, which can help us prioritize the features in the model based on its effect on the price.
+
+<img width="134" alt="Screen Shot 2023-06-02 at 11 27 43 AM" src="https://github.com/Kellyajara/Phase2_Project/assets/128645674/a673bcf8-905f-47f6-90ce-8ceb68de941d">
+
 
 Based on our third model, we were able to visualize the correlation/effect between the following: 
 
